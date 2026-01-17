@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vibesdk-production
+  description: |
+    Produktions-SDK für Vibe-Anwendungen, entwickelt mit Node.js zur Bereitstellung einer robusten API-Lösung für Integration und Datenverarbeitung.[1]
+  annotations:
+    github.com/project-slug: skquievreux/vibesdk-production
+spec:
+  type: library
+  lifecycle: experimental
+  owner: guests
